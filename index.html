@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Viera - Solusi Modern Masa Kini</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        brand: {
+                            50: '#f4f6f8',
+                            100: '#e7ebf0',
+                            200: '#c3cedb',
+                            600: '#4b6584',
+                            700: '#3b526d',
+                            800: '#2c3e50',
+                            900: '#1e2b38',
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="bg-brand-50 text-brand-900 font-sans antialiased flex flex-col min-h-screen">
+
+    <!-- NAVBAR -->
+    <header class="bg-white/80 backdrop-blur-md sticky top-0 z-50 border-b border-brand-100">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex items-center justify-between h-16">
+                <!-- Logo -->
+                <div class="flex-shrink-0 flex items-center">
+                    <span class="text-2xl font-bold tracking-tight text-brand-800">VIERA<span class="text-blue-500">.</span></span>
+                </div>
+                
+                <!-- Menu Utama -->
+                <nav class="hidden md:flex space-x-8">
+                    <a href="#" class="text-brand-600 hover:text-brand-900 font-medium transition-colors">Fitur</a>
+                    <a href="#" class="text-brand-600 hover:text-brand-900 font-medium transition-colors">Solusi</a>
+                    <a href="#" class="text-brand-600 hover:text-brand-900 font-medium transition-colors">Harga</a>
+                    <a href="#" class="text-brand-600 hover:text-brand-900 font-medium transition-colors">Tentang Kami</a>
+                </nav>
+
+                <!-- Tombol Login -->
+                <div class="flex items-center">
+                    <a href="#" class="inline-flex items-center justify-center px-4 py-2 border border-transparent text-sm font-medium rounded-lg text-white bg-brand-800 hover:bg-brand-700 shadow-sm transition-all target:shadow-none">
+                        Masuk
+                    </a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- HERO SECTION -->
+    <main class="flex-grow flex items-center bg-gradient-to-b from-white to-brand-100/50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20 md:py-32 text-center">
+            <!-- Badge / Info Singkat -->
+            <span class="inline-flex items-center px-3 py-1 rounded-full text-xs font-medium bg-brand-200/50 text-brand-800 mb-6">
+                ✨ Memperkenalkan Viera Versi Terbaru
+            </span>
+            
+            <!-- Judul Besar -->
+            <h1 class="text-4xl sm:text-5xl md:text-6xl font-extrabold tracking-tight text-brand-900 max-w-4xl mx-auto leading-tight">
+                Transformasi Produktivitas Kerja Anda Bersama <span class="text-brand-700 bg-clip-text">Viera</span>
+            </h1>
+            
+            <!-- Sub-teks -->
+            <p class="mt-6 text-lg sm:text-xl text-brand-600 max-w-2xl mx-auto leading-relaxed">
+                Kelola proyek, kolaborasi tim, dan pantau perkembangan bisnis Anda dalam satu platform modern yang ringkas, cepat, dan aman.
+            </p>
+            
+            <!-- Dua Tombol Aksi (CTA) -->
+            <div class="mt-10 flex flex-col sm:flex-row gap-4 justify-center items-center">
+                <a href="#" class="w-full sm:w-auto inline-flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-xl text-white bg-brand-700 hover:bg-brand-800 shadow-lg shadow-brand-700/20 transition-all">
+                    Mulai Gratis
+                </a>
+                <a href="#" class="w-full sm:w-auto inline-flex items-center justify-center px-8 py-3 border border-brand-200 text-base font-medium rounded-xl text-brand-700 bg-white hover:bg-brand-50 shadow-sm transition-all">
+                    Pelajari Fitur
+                </a>
+            </div>
+        </div>
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="bg-brand-900 text-brand-200 border-t border-brand-800">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 flex flex-col sm:flex-row items-center justify-between text-sm">
+            <!-- Hak Cipta -->
+            <p class="text-center sm:text-left text-brand-200/70">
+                &copy; 2026 Viera Inc. Hak Cipta Dilindungi Undang-Undang.
+            </p>
+            <!-- Link Tambahan -->
+            <div class="flex space-x-6 mt-4 sm:mt-0 justify-center">
+                <a href="#" class="hover:text-white transition-colors">Privasi</a>
+                <a href="#" class="hover:text-white transition-colors">Ketentuan</a>
+                <a href="#" class="hover:text-white transition-colors">Kontak</a>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
